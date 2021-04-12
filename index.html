@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html lang='en'>
+    <head>
+      <meta charset='UTF-8'/>
+      <meta name='viewport'
+            content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+      <title>New Reality Travels</title>
+      <link rel='stylesheet' href='styles.css'/>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+       crossorigin="anonymous">
+
+      <style>
+        /*Mobile Styles*/
+        @media only screen and (max-width: 400px) {
+          body {
+            background-image: url('images/san-francisco-mobile.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+          }
+        }
+
+        /*Tablet Styles*/
+        @media only screen and (min-width: 401px) and (max-width: 960px) {
+          body {
+            background-image: url('images/ggb.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: 35%;
+          }
+        }
+
+        /*Desktop Styles*/
+        @media only screen and (min-width: 961px) {
+          body {
+            background-image: url('images/ggb.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+          }
+        }
+      </style>
+
+      <style>
+        .navbar-custom a {
+          color: gray;
+          font-size: 20px;
+        }
+
+        .navbar-custom .active a {
+          color: orange;
+        }
+      </style>
+
+    </head>
+
+    <body>
+
+        <div class="pos-f-t">
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4" id='links'>
+              <a href='index.html'>Home</a>
+              <hr/>
+              <a href='places.html'>Travel Destinations</a>
+              <hr/>
+              <a href='faq.html'>FAQ</a>
+              <hr/>
+              <a href='reviews.html'>Reviews</a>
+            </div>
+          </div>
+          <nav class="navbar navbar-nav navbar-center navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+        </div>
+
+        <div class='intro-container'>
+          <p id='welcome-text'>COVID-19 may have stopped our travels,
+            but now it's time to catch up</p>
+          <a href='places.html'>
+            <button id='welcome-button'>PLAN YOUR UNFORGETTABLE TRIP</button>
+          </a>
+        </div>
+
+        
+
+    </body>
+  </html>
